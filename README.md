@@ -1,5 +1,7 @@
 # Présentation
 
+![Logo des Francas](res/LOGO-FRANCAS.png)
+
 [fr76](https://github.com/fr76/) est le compte officiel de l'Association Départementale des Francas de Seine-Maritime.
 
 Les Francas de Seine-Maritime est une association loi 1901 qui particicipe à l'action éducative, sociale et culturelle
