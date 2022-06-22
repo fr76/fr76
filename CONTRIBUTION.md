@@ -30,6 +30,35 @@ compétence très utile et qui vous sera donc très souvent demandée si travail
 
 ### Partie 1
 
+Git est ce qu'on appelle un outil de gestion de versions. Dans les grandes lignes, il sert à enregistrer les différentes
+versions du code source d'un projet donné, au fur et à mesure que des changements sont apportés. Chaque version est
+appelée un **commit** et enregistre les modifications depuis la dernière version.
+
+Il permet également d'envoyer ces commits sur un serveur distant pour pouvoir le partager avec les autres membres du
+projet. Github est un exemple d'un tel serveur : Il s'agit héberge les projets et fournit un site pour les consulter et
+les administrer depuis le web.
+
+Voici un bon cours pour apprendre les bases de Git et GitHub qu'il est important de suivre pour comprendre la
+suite : [https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github](https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et-github)
+
+Voici un rappel des commandes les plus utiles :
+
+Télécharger le code source d'un projet depuis GitHub :
+
+1. Rendez-vous sur la page GiHub du projet.
+2. Repérer le lien pour cloner le projet d'après la capture d'écran
+   suivante : ![](res/contribution%20-%20git%20clone.png)
+3. tapez la commande suivante dans un terminal (pensez à vous mettre dans le dossier dans lequel vous voulez
+   travailler) : `git clone [lien]`
+
+Créer un nouveau commit :
+
+1. Ajouter les fichiers qu'on veut sauvegarder dans le commit :
+    - `git add [fichier1] [fichier2] ...` pour ajouter certains fichiers.
+    - `git add .` pour ajouter tous les fichiers du projet.
+2. créer le commit : `git commit -m "un message descriptif des changements"`. On peut consulter la liste des commits
+   récents avec `git log`.
+
 ### Partie 2
 
 ### Partie 3
