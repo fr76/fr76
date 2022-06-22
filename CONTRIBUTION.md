@@ -59,6 +59,24 @@ Créer un nouveau commit :
 2. créer le commit : `git commit -m "un message descriptif des changements"`. On peut consulter la liste des commits
    récents avec `git log`.
 
+Manipuler les branches :
+
+- Changer de branche : `git checkout [branche]`.
+- Créer une branche et s'y rendre immédiatement `git checkout -b [branche]`.
+
+Fusionner une branche A dans une branche B :
+
+- Se rendre dans la branche B (celle qui recevra la branche A) : `git checkout B`.
+- Fusionnez A dans B `git merge --no-ff A`.
+
+Gérer son code avec GitHub :
+
+- Envoyer son code : `git push origin [branche]`.
+- Télécharger les mises à jour :
+    1. `git fetch origin`.
+    2. `git checkout [branche]`.
+    3. `git pull origin [branche]`.
+
 ### Partie 2
 
 ### Partie 3
