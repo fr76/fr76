@@ -30,7 +30,7 @@ utilisés. Ces rappels sont très sommaires et des liens sont fournis vers de la
 Dans tous les cas, il est très important de prendre le temps de maîtriser ces outils, même pour vous-même, c'est une
 compétence très utile et qui vous sera donc très souvent demandée si travaillez dans l'informatique et la programmation.
 
-### Partie 1
+### Partie 1 - Fonctionnement de Git et GitHub
 
 Git est ce qu'on appelle un outil de gestion de versions. Dans les grandes lignes, il sert à enregistrer les différentes
 versions du code source d'un projet donné, au fur et à mesure que des changements sont apportés. Chaque version est
@@ -45,7 +45,7 @@ suite : [https://openclassrooms.com/fr/courses/7162856-gerez-du-code-avec-git-et
 
 Voici un rappel des commandes les plus utiles :
 
-Télécharger le code source d'un projet depuis GitHub :
+#### Télécharger le code source d'un projet depuis GitHub
 
 1. Rendez-vous sur la page GiHub du projet.
 2. Repérer le lien pour cloner le projet d'après la capture d'écran
@@ -53,7 +53,7 @@ Télécharger le code source d'un projet depuis GitHub :
 3. tapez la commande suivante dans un terminal (pensez à vous mettre dans le dossier dans lequel vous voulez
    travailler) : `git clone [lien]`
 
-Créer un nouveau commit :
+#### Créer un nouveau commit
 
 1. Ajouter les fichiers qu'on veut sauvegarder dans le commit :
     - `git add [fichier1] [fichier2] ...` pour ajouter certains fichiers.
@@ -61,7 +61,7 @@ Créer un nouveau commit :
 2. créer le commit : `git commit -m "un message descriptif des changements"`. On peut consulter la liste des commits
    récents avec `git log`.
 
-Manipuler les branches :
+#### Manipuler les branches
 
 - Changer de branche : `git checkout [branche]`.
 - Créer une branche et s'y rendre immédiatement `git checkout -b [branche]`.
@@ -71,15 +71,22 @@ Fusionner une branche A dans une branche B :
 - Se rendre dans la branche B (celle qui recevra la branche A) : `git checkout B`.
 - Fusionnez A dans B `git merge --no-ff A`.
 
-Gérer son code avec GitHub :
+#### Envoyer son code sur GitHub
 
-- Envoyer son code : `git push origin [branche]`.
-- Télécharger les mises à jour :
-    1. `git fetch origin`.
-    2. `git checkout [branche]`.
-    3. `git pull origin [branche]`.
+- Faire un push : `git push origin [branche]`.
 
-### Partie 2
+⚠ Votre identifiant et votre mot de passer vous seront demandés pour vous connecter à GitHub. Depuis quelque temps, ce
+dernier n'accepte plus le mot de passe du compte pour pusher son code, mais utilise à la place un système de token. Pour
+générer et utiliser le votre, veuillez lire
+cette [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
+#### Télécharger les mises à jour depuis GitHub
+
+1. `git fetch origin`.
+2. `git checkout [branche]`.
+3. `git pull origin [branche]`.
+
+### Partie 2 - Conventions pour les contributions
 
 Cette partie ne porte pas sur l'utilisation de Git en tant que tel, mais sur les conventions dont l'association se sert
 pour organiser le travail avec cet outil.
