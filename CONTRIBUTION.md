@@ -75,6 +75,11 @@ Fusionner une branche A dans une branche B :
 
 - Faire un push : `git push origin [branche]`.
 
+⚠ Votre identifiant et votre mot de passer vous seront demandés pour vous connecter à GitHub. Depuis quelque temps, ce
+dernier n'accepte plus le mot de passe du compte pour pusher son code, mais utilise à la place un système de token. Pour
+générer et utiliser le votre, veuillez lire
+cette [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+
 #### Télécharger les mises à jour depuis GitHub
 
 1. `git fetch origin`.
