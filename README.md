@@ -4,7 +4,7 @@
 
 [fr76](https://github.com/fr76/) est le compte officiel de l'Association Départementale des Francas de Seine-Maritime.
 
-Les Francas de Seine-Maritime est une association loi 1901 qui particicipe à l'action éducative, sociale et culturelle
+Les Francas de Seine-Maritime est une association loi 1901 qui participe à l'action éducative, sociale et culturelle
 en faveur des enfants.
 
 🌐 Liens utiles :
@@ -15,3 +15,5 @@ en faveur des enfants.
 - Notre page [Facebook](https://www.facebook.com/francas76/).
 
 ✉️ Administrateur du compte : [josue.francas76@gmail.com](mailto:josue.francas76@gmail.com)
+
+Le guide de contribution est disponible ici [CONTRIBUTION.md](CONTRIBUTION.md).
