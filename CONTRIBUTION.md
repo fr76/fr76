@@ -23,8 +23,10 @@ instruction adaptée à chaque niveau, que vous soyez débutant ou que vous maî
     - Ce qu'est un dépôt Git.
     - Les commits et les pushs.
     - La différence entre Git et GitHub.
-- Si vous maîtrisez les notions de branches et de merge, lisez la partie 3.
+    - Les branches et les merges.
 
+Les notions présentées dans les parties suivantes sont avant tout des rappels des concepts et des commandes les plus
+utilisés. Ces rappels sont très sommaires et des liens sont fournis vers de la documentation plus complète si besoin.
 Dans tous les cas, il est très important de prendre le temps de maîtriser ces outils, même pour vous-même, c'est une
 compétence très utile et qui vous sera donc très souvent demandée si travaillez dans l'informatique et la programmation.
 
@@ -79,4 +81,36 @@ Gérer son code avec GitHub :
 
 ### Partie 2
 
-### Partie 3
+Cette partie ne porte pas sur l'utilisation de Git en tant que tel, mais sur les conventions dont l'association se sert
+pour organiser le travail avec cet outil.
+
+Nous utilisons diverses conventions, telles que :
+
+#### Le modèle de branches Git
+
+Cette convention permet de développement du projet en plusieurs branches. Ces branches ont divers rôles, comme permettre
+de ne passer en production que du code testé et mature, d'isoler l'implémentation de chaque nouvelle fonctionnalité dans
+une branche spécifique pour l'isoler des perturbations extérieures, ou de contrôler plus facilement le versionnage du
+logiciel.
+
+Voici un schéma qui résume son fonctionnement :
+
+![](res/contribution%20-%20modèle%20de%20brances%20git.png)
+
+Pour plus d'informations, visitez ce
+lien : [https://nvie.com/posts/a-successful-git-branching-model/](https://nvie.com/posts/a-successful-git-branching-model/)
+
+#### La gestion sémantique des versions
+
+Il s'agit d'une convention permettant de spécifier la manière dont on nomme les versions d'un logiciel que l'on publie.
+Une version d'un logiciel est écrite selon la syntaxe `X.Y.Z`, avec `X`, `Y`, `Z` des nombres entiers qui doivent être
+incrémentés :
+
+- Pour `X` lorsqu'une nouvelle fonctionnalité est ajoutée, rendant le logiciel **incompatible** avec la version
+  précédente.
+- Pour `Y` lorsqu'une nouvelle fonctionnalité est ajoutée, gardant le logiciel **compatible** avec la version
+  précédente.
+- Pour `Z` lorsqu'une modification mineure est apportée, comme la correction d'un bug, sans apporter, modifier ou
+  supprimer de fonctionnalité.
+
+Allez visiter [https://semver.org/](https://semver.org/) pour avoir une explication plus complète.
