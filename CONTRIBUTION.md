@@ -30,7 +30,7 @@ utilisés. Ces rappels sont très sommaires et des liens sont fournis vers de la
 Dans tous les cas, il est très important de prendre le temps de maîtriser ces outils, même pour vous-même, c'est une
 compétence très utile et qui vous sera donc très souvent demandée si travaillez dans l'informatique et la programmation.
 
-### Partie 1
+### Partie 1 - Fonctionnement de Git et GitHub
 
 Git est ce qu'on appelle un outil de gestion de versions. Dans les grandes lignes, il sert à enregistrer les différentes
 versions du code source d'un projet donné, au fur et à mesure que des changements sont apportés. Chaque version est
@@ -86,7 +86,7 @@ cette [documentation](https://docs.github.com/en/authentication/keeping-your-acc
 2. `git checkout [branche]`.
 3. `git pull origin [branche]`.
 
-### Partie 2
+### Partie 2 - Conventions pour les contributions
 
 Cette partie ne porte pas sur l'utilisation de Git en tant que tel, mais sur les conventions dont l'association se sert
 pour organiser le travail avec cet outil.
