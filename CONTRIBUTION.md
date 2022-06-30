@@ -37,7 +37,7 @@ versions du code source d'un projet donné, au fur et à mesure que des changeme
 appelée un **commit** et enregistre les modifications depuis la dernière version.
 
 Il permet également d'envoyer ces commits sur un serveur distant pour pouvoir le partager avec les autres membres du
-projet. Github est un exemple d'un tel serveur : Il s'agit héberge les projets et fournit un site pour les consulter et
+projet. Github est un exemple d'un tel serveur : Il héberge les projets et fournit un site pour les consulter et
 les administrer depuis le web.
 
 Voici un bon cours pour apprendre les bases de Git et GitHub qu'il est important de suivre pour comprendre la
@@ -47,10 +47,10 @@ Voici un rappel des commandes les plus utiles :
 
 #### Télécharger le code source d'un projet depuis GitHub
 
-1. Rendez-vous sur la page GiHub du projet.
+1. Rendez-vous sur la page GitHub du projet.
 2. Repérer le lien pour cloner le projet d'après la capture d'écran
    suivante : ![](res/contribution%20-%20git%20clone.png)
-3. tapez la commande suivante dans un terminal (pensez à vous mettre dans le dossier dans lequel vous voulez
+3. Tapez la commande suivante dans un terminal (pensez à vous mettre dans le dossier dans lequel vous voulez
    travailler) : `git clone [lien]`
 
 #### Créer un nouveau commit
@@ -75,10 +75,11 @@ Fusionner une branche A dans une branche B :
 
 - Faire un push : `git push origin [branche]`.
 
-⚠ Votre identifiant et votre mot de passer vous seront demandés pour vous connecter à GitHub. Depuis quelque temps, ce
+⚠ Votre identifiant et votre mot de passe vous seront demandés pour vous connecter à GitHub. Depuis quelque temps, ce
 dernier n'accepte plus le mot de passe du compte pour pusher son code, mais utilise à la place un système de token. Pour
 générer et utiliser le votre, veuillez lire
 cette [documentation](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+.
 
 #### Télécharger les mises à jour depuis GitHub
 
@@ -95,7 +96,7 @@ Nous utilisons diverses conventions, telles que :
 
 #### Le modèle de branches Git
 
-Cette convention permet de développement du projet en plusieurs branches. Ces branches ont divers rôles, comme permettre
+Cette convention permet le développement du projet en plusieurs branches. Ces branches ont divers rôles, comme permettre
 de ne passer en production que du code testé et mature, d'isoler l'implémentation de chaque nouvelle fonctionnalité dans
 une branche spécifique pour l'isoler des perturbations extérieures, ou de contrôler plus facilement le versionnage du
 logiciel.
