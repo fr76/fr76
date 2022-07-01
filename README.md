@@ -1,10 +1,19 @@
-- 👋 Hi, I’m @fr76
-- 👀 I’m interested in programming around robot, games and educational project
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on aster project, domotic project, educational kind of project
-- 📫 How to reach me? reach me at josue.francas76@gmail.com 
+# Présentation
 
-<!---
-fr76/fr76 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+![Logo des Francas](res/LOGO-FRANCAS.png)
+
+✋ [fr76](https://github.com/fr76/) est le compte officiel de l'Association Départementale des Francas de Seine-Maritime.
+
+Les Francas de Seine-Maritime est une association loi 1901 qui participe à l'action éducative, sociale et culturelle
+en faveur des enfants.
+
+🌐 Liens utiles :
+
+- La page [Wikipédia](https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_nationale_des_Francas) de la Fédération
+  nationale des Francas.
+- Notre site internet : [https://francas76.net/](https://francas76.net/).
+- Notre page [Facebook](https://www.facebook.com/francas76/).
+
+✉️ Administrateur du compte : [josue.francas76@gmail.com](mailto:josue.francas76@gmail.com).
+
+📙 Le guide de contribution est disponible ici : [CONTRIBUTION.md](CONTRIBUTION.md).
